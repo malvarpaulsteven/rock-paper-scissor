@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="bg-dark">
+    <div class="container">
+        <div class="container">
+            <div class="row align-items-center vh-100">
+                <section class="game d-flex-row align-Items-center justify-content-center">
+                    <div class="main">
+                        <!--Display Score of player and computer -->
+                        <div class="score d-flex justify-content-around text-center mb-4"> 
+                            <div class="playerScore col-6">
+                                <img src="img/player.png" alt="" width="40%">
+                                <p class="p-count count pb-4 mb-4 lead fs-1 fw-bold text-success">0</p>
+                                <img src="img/axie1.gif" alt="" width="40%">
+                            </div>    
+                            <div class="computerScore col-6">
+                                <img src="img/computer.png" alt="" width="40%">
+                                <p class="c-count count pb-4 mb-4 text-center fs-1 fw-bold text-danger">0</p>
+                                <img src="img/axie2.gif" alt="" width=50%;">
+                            </div>
+                        </div>
+                    
+                        <div class="result-container text-center">
+                            <div class="move h1 fs-4 text-success">CHOOSE YOUR MOVE</div>
+                            <!--Number of moves left before game ends -->
+                            <div class="movesleft lead mb-3 text-success">Moves Left: 10 </div>
+                            
+                            <!--Options available to player to play game -->
+                            <div class="options">
+                                <button class="rock btn btn-primary btn-lg">Rock</button>
+                                <button class="paper btn btn-primary btn-lg">Paper</button>
+                                <button class="scissor btn btn-primary btn-lg">Scissors</button>   
+                            </div>
+                            <!--Final result of game -->
+                            <div class="result text-center fs-3"></div>
+                            <!--Reload the game -->
+                            <button class="reload btn btn-primary btn-lg"></button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+ 
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
+

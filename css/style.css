@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Roboto+Mono:wght@100&display=swap');
+
+body {
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Irish Grover', cursive;
+}
+
+.options button{
+    width: 100px !important;
+}
+
+.result-container .reload {
+    visibility: hidden;
+}
